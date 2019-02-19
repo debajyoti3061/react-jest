@@ -34,7 +34,7 @@ test('should filter by text value',()=>{
   expect(result).toEqual([expenses[1],expenses[2]]);
 });
 
-test('should filter by start date',()=>{
+test.skip('should filter by start date',()=>{
   const filter ={
     text :'',
     sortBy:'date',
